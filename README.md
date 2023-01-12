@@ -32,8 +32,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 │       └── page.tsx          # Replaces the index.tsx for URI
 ├── pages                 # Pages folder can be used concurrently with App Directory
 │   └── api                 # api Folder
-│   └── _app.tsx            # Main page file
-│   └── _document.tsx       # Custom document
+│   └── _app.tsx            # Main page file (only if using pages to provide page routes)
+│   └── _document.tsx       # Custom document (only if using pages to provide page routes)
 │   └── index.tsx           # Home page (if App Dir has a root tsx, this cannot exist otherwise there is a conflict)
 │   └── <page>.tsx          # <page> represents the page URI for each site page
 ├── public                # Folder for static assets
