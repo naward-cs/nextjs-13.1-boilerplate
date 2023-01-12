@@ -44,28 +44,28 @@
 ├── .eslintrc.json        # Eslint config
 ├── .priettierc           # Prettier config
 ├──  next-env.d.ts        # Next.js Typescript declaration file (leave unchanged)
-├──  tsconfig.json        # Typescript config
+└──  tsconfig.json        # Typescript config
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Usage
 
+Install dependencies
+
 ```bash
-# Install dependencies
-
 yarn install
+```
 
-# Start local webserver at port 3000
+Start local webserver at port 3000
 
+```bash
 yarn dev
+```
 
-# Run all linters
+Build app for production (gets output in the 'dist' directory)
 
-yarn lint:all
-
-# Build app for production (gets output in the 'dist' directory)
-
+```bash
 yarn build
 ```
 
