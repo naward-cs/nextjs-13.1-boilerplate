@@ -1,4 +1,4 @@
-# Next.js Boilerplate
+# Next.js 13.1 Boilerplate
 
 - Easy to use front-end boilerplate to start developing your Next.js application right away 💯 using the latest nextjs 13.1 app dir
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
