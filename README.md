@@ -13,7 +13,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Highlights
 
-- Features all the benefits of Next.js 13.1 app Dir
+- Features all the benefits of Next.js 13.1
+- Ability to start using app Dir
+- Ability to continue using page Dir
 - Automatically formats your code by using `Prettier`
 - Friendly errors & warnings
 
