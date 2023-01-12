@@ -52,6 +52,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Usage
 
+To use as a template
+
+```bashs
+npx create-next-app -e https://github.com/naward-cs/nextjs-13.1-boilerplate
+```
+
 Install dependencies
 
 ```bash
