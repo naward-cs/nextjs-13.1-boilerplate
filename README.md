@@ -13,16 +13,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Highlights
 
-- Features all the benefits of Next.js 13.1
+- Features all the benefits of Next.js 13.3
 - Ability to start using app Dir
 - Ability to continue using page Dir
 - Automatically formats your code by using `Prettier`
 - Friendly errors & warnings
+- Uses new NextJS built in SEO. You can use Next-SEO as an option if you prefer.
+- Uses new NextJS build in fonts
 
 ## File Tree
 
 ```bash
-├── app                   # New nextjs App Directory 
+├── app                   # New nextjs App Directory
+│   └── api                 # api Folder
+│       └── <uri>             # URI
+│           └── route.ts        # API execution file GET|POST|etc all in this single file for api route of URI
 │   └── head.tsx            # Root Header
 │   └── layout.tsx          # Root Layout page
 │   └── page.tsx            # Replaces the index.tsx for URI
@@ -30,8 +35,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 │       └── head.tsx          # URI Header used to modify/upate Root Header (optional)
 │       └── layout.tsx        # nested layout (optional)
 │       └── page.tsx          # Replaces the index.tsx for URI
-├── pages                 # Pages folder can be used concurrently with App Directory
-│   └── api                 # api Folder
+├── pages                 # Pages folder can be used concurrently with App Directory NOTE: api no longer under pages
 │   └── _app.tsx            # Main page file (only if using pages to provide page routes)
 │   └── _document.tsx       # Custom document (only if using pages to provide page routes)
 │   └── index.tsx           # Home page (if App Dir has a root tsx, this cannot exist otherwise there is a conflict)
